@@ -114,7 +114,7 @@ def mousePressed():
             addBrick(x + 37.5, 50, 6)
             addBrick(x + 37.5, 70, 5)
             addBrick(x + 37.5, 90, 4)
-        ball.vel = PVector(1, 1)*6
+        ball.vel = PVector(1, 1)*1
         ball.dir = PVector(1, 1)
         ball.pos = PVector(width/2, height/2)
         L.append(1)
